@@ -1,6 +1,8 @@
 package transcode;
 
 public class BaseNaryTranscoder {
+    public static final String BASE_91_CODEX = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&()*+,./;<=>?@[]^_`{|}~\":";
+    
     private final char[] codexString;
 
     public BaseNaryTranscoder(String codexString) {
